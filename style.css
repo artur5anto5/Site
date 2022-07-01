@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/brasil-penta-2002.jpg);
+    height: 600px;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    padding-top: 3.5em;
+}
+main h2{
+    margin-top: 3em;
+    margin-left: 2%;
+}
+main p{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+main img{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2em; 
+}
+footer{
+    display: flex;
+    float: left;
+    margin-top: 2em;
+    background-color: darkgray;
+    height: 31em;
+}
+footer h2{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+footer img{
+    margin-top: 2em;
+    margin-left: 6em;
+}
+footer p{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    text-align: justify;
+}
+footer button{
+    width: 8em;
+    height: 3em;
+    background-color: orange;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 2em;
+    margin-left: 2em;
+    color: white;
+}
+footer button:hover{
+    color: black;
+    background-color: rgb(97, 97, 6);
+}
+a{
+    text-decoration: none;
+}
+footer div:first-child h2{
+    color: blue;
+}
+footer div h2{
+    color: purple;
+}
+footer div:last-child h2{
+    color: red;
+}
+footer div:first-child button{
+    background-color: orange;
+}
+footer div button{
+    background-color: yellow;
+}
+footer div:last-child button{
+    background-color: green;
+}
+footer div:last-child button:hover{
+    background-color: rgb(8, 85, 8);
+}
+footer div:first-child button:hover{
+    background-color: rgb(129, 86, 5);
+}
+main p:last-child{
+    color: palevioletred;
+}
+main p{
+    color: darkcyan;
+}
+main p:first-of-type{
+    color: brown;
+}
+footer p{
+    color: bisque;
+}
+footer div:last-child p{
+    color: aqua;
+}
+footer div:first-child p{
+    color: chartreuse;
+}
